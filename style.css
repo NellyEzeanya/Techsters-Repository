@@ -1,0 +1,71 @@
+body, * {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flexWrapper {
+    display: flex;
+    background-color: rgb(177, 177,177 );
+    height: 400px;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 64px;
+    background-color: blue;
+    color: white;
+    height: 100vw;
+    justify-content: center;
+
+}
+.first-list {
+    margin-right:auto ;
+    margin-left:auto ;
+    background-color: red;
+    width: 50%;
+}
+
+.List-item {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+
+}
+
+    .List-item:hover {
+        background-color: white;
+        color: #121314;
+        cursor: pointer;
+
+    }
+    .myBox1 {
+        background-color: aqua;
+    }
+
+    .myBox2 {
+        background-color: tomato;
+    }
+
+    .myBox3 {
+        background-color: beige;
+    }
+
+    .myBox4 {
+        background-color: violet;
+    }
+
